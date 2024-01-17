@@ -1,0 +1,15 @@
+#+TITLE: hex-maze
+#+AUTHOR: Peter Polidoro
+#+EMAIL: peter@polidoro.io
+
+* Repository Information
+- Name :: hex-maze
+- Description :: Reconfigurable 3D hex mouse maze for the Janelia Voigts lab.
+- Version :: 0.1.0
+- Creation Date :: 2024-01-07
+- License :: BSD
+- URL :: https://github.com/janelia-experimental-technology/hex-maze
+- Author :: Peter Polidoro
+- Email :: peter@polidoro.io
+- Copyright :: 2024 Howard Hughes Medical Institute
+
