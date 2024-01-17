@@ -13,3 +13,66 @@
 - Email :: peter@polidoro.io
 - Copyright :: 2024 Howard Hughes Medical Institute
 
+* Components
+
+** Stepper Driver
+
+*** TMC5130
+
+[[https://www.analog.com/en/products/tmc5130.html][TMC5130]]
+
+- 2-phase stepper motors up to 2A coil current (2.5A peak)
+- Voltage Range 4.75 to 46V DC
+- Motion controller and motor driver combined
+
+*** TMC5130 Evaluation Board
+
+[[https://www.analog.com/en/design-center/evaluation-hardware-and-software/evaluation-boards-kits/tmc5130-eval.html][TMC5130-EVAL]]
+
+**** TMCL-IDE
+
+[[https://www.analog.com/en/design-center/evaluation-hardware-and-software/motor-motion-control-software/tmcl-ide.html][TMCL-IDE]]
+
+***** Settings
+
+- Firmware: Landungsbruecke_v3.09.6_BL.hex 0012V309
+
+** Linear Actuators
+
+| Pin | Motor Phase | Color | Driver |
+|-----+-------------+-------+--------|
+|   1 | B-          | Black | B2     |
+|   3 | B+          | Green | B1     |
+|   4 | A+          | Red   | A1     |
+|   6 | A-          | Blue  | A2     |
+
+*** LE17D6150-T10105-300P-AR
+
+[[https://www.linengineering.com/rapid-prototype-configurator/linear-actuators/external-nut-actuators/simple?s1=review&s2=reviewConfiguration&p1=le17&p2=LE17D6150&p3=t10105_17&p4=300_metric&p5=pb_t10105&p7=ar1_t10105&review=true][LE17D6150-T10105-300P-AR]]
+
+- NEMA 17
+- 200 steps/rev
+- 1.5 AMP/Phase
+- 2.1 Ohm/Phase
+- 87.8 oz-in torque
+- T10105 screw
+- 0.413 in lead
+
+*** LE17D2200-T10105-300P-AR
+
+[[https://www.linengineering.com/rapid-prototype-configurator/linear-actuators/external-nut-actuators/simple?s1=review&s2=reviewConfiguration&p1=le17&p2=LE17D2200&p3=t10105_17&p4=300_metric&p5=pb_t10105&p7=ar1_t10105&review=true][LE17D2200-T10105-300P-AR]]
+
+- NEMA 17
+- 200 steps/rev
+- 2 AMP/Phase
+- 1.04 Ohm/Phase
+- 65.14 oz-in torque
+- T10105 screw
+- 0.413 in lead
+
+** Power Supply
+
+*** Keysight E36155A
+
+- 60V 40A 800W
+
